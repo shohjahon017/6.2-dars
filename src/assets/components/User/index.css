@@ -1,0 +1,35 @@
+.user {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.user:hover {
+  transition: all 0.5s;
+  transform: scale(1.05);
+}
+.user img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.name {
+  text-align: center;
+  font-weight: px bold;
+  font-size: 18px;
+}
+.phone {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.addres {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
